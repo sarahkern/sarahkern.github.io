@@ -1,6 +1,86 @@
 body{
     margin: auto;
+    text-align: center;
     background-image: url(bg.png);
     width: 800px;
     font-family: sans-serif;
+    
+}
+
+nav{
+    position: fixed;
+    text-align: right;
+    top: 0px;
+    right: 150px;
+    width: 250px;
+    height: 20px;
+    padding: 10px 10px;
+    background-color: black;
+    border-radius: 0px 0px 15px 15px;
+    text-align: center;
+    color: white
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: white;
+}
+
+a:hover {
+        color: rgb(212, 23, 23);
+}
+
+#active {
+    color: rgb(212, 23, 23);
+}
+
+.red {
+    color: rgb(212, 23, 23);
+}
+
+.border {
+    border-right: 2px solid white;
+}
+
+.icon {
+    opacity: none;
+}
+
+.icon:hover {
+    opacity: .7;   
+}
+.right {
+    text-align: left;
+}
+
+.contact {
+    background-color: rgb(189, 193, 204);
+    color: white;
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    text-align: left
+}
+
+.contact2 {
+    background-color: rgb(189, 193, 204);
+    color: white;
+    width: 400px;
+    height: 50px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    text-align: left
+}
+
+.contact3 {
+    background-color: rgb(189, 193, 204);
+    color: white;
+    width: 100px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    text-align: left
 }
