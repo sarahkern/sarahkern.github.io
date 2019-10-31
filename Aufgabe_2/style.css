@@ -58,6 +58,11 @@ a:hover {
     text-align: left;
 }
 
+.right2 {
+    text-align: left;
+    color: rgb(189, 193, 204);
+}
+
 input {
     background-color: rgb(189, 193, 204);
     color: white;
