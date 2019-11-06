@@ -1,0 +1,109 @@
+body {
+    text-align: center;
+    background-image: url(bg.png);
+    display: block;
+    margin: 8px;
+}
+
+nav{
+    position: fixed;
+    text-align: right;
+    top: 0px;
+    right: 150px;
+    width: 400px;
+    height: 20px;
+    padding: 10px 10px;
+    background-color: rgb(95, 8, 8);
+    border-radius: 0px 0px 15px 15px;
+    text-align: center;
+    color: white
+}
+
+.border {
+    border-right: 2px solid white;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: white;
+}
+
+a:hover {
+        color: rgb(212, 23, 23);
+}
+
+#active {
+    color: rgb(212, 23, 23);
+}
+
+#center {
+    position: absolute;
+    top: 50%;
+    max-width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    position: absolute;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: white;
+    top: 35%;
+    left: 13%;
+}
+
+p {
+    position: absolute;
+    top: 55%;
+    left: 13%;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 1em;
+    line-height: 2em;
+  }
+
+
+  .busch {
+    position: absolute;
+    top: -15%;
+    left: -10%;
+  }
+  .geschenk {
+    position: absolute;
+    bottom: -5%;
+    right: 0;
+}
+.fire {
+    position: absolute;
+    right: 4%;
+    bottom: 7%;
+}
+
+.stern1 {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+.stern2{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+.stern3 {
+    position: absolute;
+    top: 25%;
+    left: 60%;
+}
+video {
+    position: absolute;
+    right: 4%;
+    bottom: 7%;
+}
