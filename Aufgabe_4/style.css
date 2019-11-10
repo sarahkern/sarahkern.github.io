@@ -14,6 +14,11 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.hintergrund {
+    height: 650px;
+    width: 350px;
+}
+
 h1 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
