@@ -1,9 +1,40 @@
 body {
-    width: 300px;
-    margin: auto;
-    display: block;
-    background-color: rgb(16, 16, 131);
-    font-size: 100%;
+    background-image: url(wasser.jpg);
+    width: 100%;
+    text-align: center;
+}
+
+
+h1 {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.5em;
+        color:rgb(147, 146, 228);
+        position: absolute;
+        top: 7%;
+        left: 5%;
+        right: 5%;
+}
+
+.satz {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 0.5em;
+        color:rgb(147, 146, 228);
+        position: absolute;
+        top: 93%;
+        left: 5%;
+        right: 5%;
+}
+
+.icons {
+    width: 60px;
+    height: 37.5px;
+    margin: 50px 20px 50px 20px;
+}
+
+.icons:hover {
+    opacity: .7;
 }
 
 #center {
@@ -15,56 +46,175 @@ body {
 }
 
 .hintergrund {
-    height: 650px;
-    width: 350px;
+    height: 480px;
+    width: 360px;
 }
 
-h1 {
+.startlink {
+    z-index: 2;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2em;
-    color: gold;
+    color: white;
+    text-decoration: none;
     position: absolute;
-    top: 10%;
-    left: 17%;
+    left: 38%;
+    top: 68%;
 }
 
-
-h2 {
-    text-align: left;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1em;
-    color: gold;
+.startbutton {
+    width: 300px;
+    text-align: center;
     position: absolute;
-    top: 25%;
-    left: 10%;
+    top: 49%;
+    left: 28%;
+    z-index: 1;
 }
 
-h3 {
-    text-align: left;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1em;
-    color: gold;
+.start2 {
+    width: 350px;
     position: absolute;
-    top: 30%;
-    left: 35%;
-}
-
-.start {
-    width: 750px;
-    position: absolute;
-    top: 70%;
+    top: 15%;
     left: 0%;
     z-index: 1;
 }
 
 .frage1 {
-    color: white;
-    text-decoration: none;
+    width: 350px;
+    position: absolute;
+    top: 70%;
+    left: 42%;
+    z-index: 2;
+    text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+.frage2 {
+    width: 350px;
     position: absolute;
-    top: 73%;
-    left: 38%;
-    z-index: 10;
+    top: 16%;
+    left: 20%;
+    z-index: 2;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7em;
+    color: white;
+}
+
+.Eins {
+    width: 350px;
+    position: absolute;
+    top: 35%;
+    left: 0%;
+    z-index: 1;
+}
+
+.Zwei {
+    width: 350px;
+    position: absolute;
+    top: 45%;
+    left: 0%;
+    z-index: 1;
+}
+.Drei {
+    width: 350px;
+    position: absolute;
+    top: 55%;
+    left: 0%;
+    z-index: 1;
+}
+
+.Vier {
+    width: 350px;
+    position: absolute;
+    top: 65%;
+    left: 0%;
+    z-index: 1;
+}
+
+.Antwort1 {
+    width: 350px;
+    position: absolute;
+    top: 36%;
+    left: 25%;
+    z-index: 2;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7em;
+    color: white;
+    text-decoration: none;
+}
+
+.Antwort2 {
+    width: 350px;
+    position: absolute;
+    top: 46%;
+    left: 25%;
+    z-index: 2;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7em;
+    color: white;
+    text-decoration: none;
+}
+
+.Antwort3 {
+    width: 350px;
+    position: absolute;
+    top: 56%;
+    left: 25%;
+    z-index: 2;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7em;
+    color: white;
+    text-decoration: none;
+}
+.Antwort4 {
+    width: 350px;
+    position: absolute;
+    top: 66%;
+    left: 25%;
+    z-index: 2;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7em;
+    color: white;
+    text-decoration: none;
+}
+
+.leiderverloren {
+    width: 350px;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    z-index: 1.5;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    color:rgb(147, 146, 228);
+}
+
+.verloren2 {
+    width: 350px;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    z-index: 2;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+.verloren3 {
+    width: 350px;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    z-index: 1;
 }
