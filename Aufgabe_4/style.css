@@ -27,6 +27,12 @@ h1 {
         right: 5%;
 }
 
+@media screen and (max-width: 600px) {
+    div.example {
+      display: none;
+    }
+  }
+
 .icons {
     width: 60px;
     height: 37.5px;
