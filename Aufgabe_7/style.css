@@ -1,0 +1,119 @@
+body {
+    background-color:#000000;
+    text-align: center;
+}
+
+#center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    transform: translate(-50%, -50%);
+    width: 245px;
+}
+
+button {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    
+}
+
+button:hover {
+    opacity: .9;
+}
+
+#button1 {
+    left: 0px;
+    top: 0px;
+    background-color:#1E90FF;
+    border-color:  	#1E90FF;
+    position: absolute;
+}
+
+#button2 {
+    left: 155px;
+    top: 0px;
+    background-color:#1E90FF;
+    border-color:  	#1E90FF;
+    position: absolute;
+}
+
+#button3 {
+    left: 310px;
+    top: 0px;
+    background-color:#1E90FF;
+    border-color:  	#1E90FF;
+    position: absolute;
+}
+#button4 {
+    left: 0px;
+    top: 155px;
+    background-color: #FF1493;
+    border-color: #FF1493;
+    position: absolute;
+}
+
+#button5 {
+    left: 155px;
+    top: 155px;
+    background-color: #FF1493;
+    border-color: #FF1493;
+    position: absolute;
+}
+
+#button6 {
+    left: 310px;
+    top: 155px;
+    background-color: #FF1493;
+    border-color: #FF1493;
+    position: absolute;
+}
+
+#button7 {
+    left: 0px;
+    top: 310px;
+    background-color: #FF1493;
+    border-color: #FF1493;
+    position: absolute;
+}
+
+#button8 {
+    left: 155px;
+    top: 310px;
+    background-color: #FF8C00;
+    border-color: #FF8C00;
+    position: absolute;
+}
+
+#button9 {
+    left: 310px;
+    top: 310px;
+    background-color: #FF8C00;
+    border-color: #FF8C00;
+    position: absolute;
+}
+
+#button10pause {
+    left: 270px;
+    top: 490px;
+    position: absolute;
+    background-color: #ffffff;
+    width: 90px;
+    height: 90px;
+    border-radius: 0px;
+}
+
+#button10pause:hover {
+    transform: scale(1.1);
+}
+
+#playButton {
+    position: absolute;
+    left: 80px;
+    top: 460px;
+}
+
+#playButton:hover {
+    transform: scale(1.1);
+}
+
