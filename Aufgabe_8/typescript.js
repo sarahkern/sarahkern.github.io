@@ -44,9 +44,9 @@ function changeBeat() {
     }
 }
 function recordBeat() {
-    beat.length = 0;
+    record = true;
 }
 function deleteBeat() {
-    record = true;
+    beat.length = 0;
 }
 //# sourceMappingURL=typescript.js.map
