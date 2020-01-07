@@ -45,4 +45,3 @@ function CheckedButton(ClickedButton) {
         ClickedButton.classList.add("fa-circle");
     }
 }
-//# sourceMappingURL=typescript.js.map
