@@ -1,0 +1,212 @@
+body{
+    background-image: url(Images/vintage.jpg);
+    background-size: cover;
+    font-family: 'Palatino', 'Times New Roman', Times, serif;
+    color: goldenrod;
+    font-size: 1em;
+}
+
+main{
+    width: 90%;
+    margin-left: 5%;
+    height: 94%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+aside {
+    position: absolute;
+    width: 250px;
+    right: 0px;
+    top: 25%;
+    padding: 5px 0px 5px 10px;
+    background-color: rgb(122, 15, 15);
+    color: goldenrod;
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+.footer {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    height: 20px;
+    padding: 0px 5px 0px 5px;
+    background-color: rgb(122, 15, 15);
+    border-radius: 0px 0px 0px 0px;
+    color: goldenrod;
+    text-align: left;
+}
+
+.logo {
+    width: 200px;
+    position: absolute;
+    top: 33%;
+    left: 65%;
+}
+
+p{
+    color: goldenrod;
+    padding: 0.5em;
+}
+#computer, #player{
+    clear:both;
+    border-radius: 15px 15px 15px 15px;
+    border: 3px solid rgb(122, 15, 15);
+    margin-left: 4.3%;
+    padding: 10px;
+    height: 150px;
+    width: 60%;
+}
+
+#stack{
+    float:left;
+    height: 130px;
+    width: 80px;
+    background-image: url(Images/Rückseite.png);
+    background-size: 80px 130px;
+    margin: 2%;
+    margin-left: 4.3%;
+}
+
+#stack:hover {
+    transform: scale(1.1);
+}
+
+#currentMove{
+    float:left;
+    width: 270px;
+    font-size: 1.2em;
+    color: rgb(122, 15, 15);
+    margin-left: 5%;
+    margin-top: 7%;
+    
+}
+
+#active{
+    float:left;
+    height: 130px;
+    width: 80px;
+    background-image: url(Images/Rückseite.png);
+    background-size: 80px 130px;
+    margin: 2%;
+}
+
+
+#gamestart{
+    float:left;
+    font-family: 'Palatino', 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    background-color: rgb(122, 15, 15);
+    color: goldenrod;
+    padding: 0.5%;
+    margin: 6.5%;
+    margin-left: 5%;
+}
+
+#gamestart:hover {
+    opacity: .7;
+}
+
+.card {
+    float:left;
+    width: 80px;
+    height: 130px;
+}
+
+
+.backside img {
+    width: 80px;
+    height:130px;
+}
+
+#player .card, #computer .card{
+    margin-left: 1%;
+}
+
+#active .card, #stack .card{
+    position: absolute;
+}
+
+.blue {
+    background-image: url(Images/blue.png);
+    background-size: 80px 130px;
+}
+.blue:hover {
+    transform: scale(1.1);
+}
+.yellow {
+    background-image: url(Images/yellow.png);
+    background-size: 80px 130px;
+}
+
+.yellow:hover {
+    transform: scale(1.1);
+}
+
+.red {
+    background-image: url(Images/red.png);
+    background-size: 80px 130px;
+}
+
+.red:hover {
+    transform: scale(1.1);
+}
+
+.green{
+    background-image: url(Images/green.png);
+    background-size: 80px 130px;
+}
+
+.green:hover {
+    transform: scale(1.1);
+}
+
+.card p{
+    float:left;
+}
+
+.topleft{
+    color: #ffffffab;
+    margin-top: -0.25em;
+}
+.topright{
+    top: 0px;
+    right:0px;
+    color: #ffffffab;
+    margin-top: -0.25em;
+    margin-left: 1.8em;
+}
+
+.middle{
+    clear: both;
+    border-radius: 100%;
+    font-size: 2em;
+    margin-left: 19.5%;
+    margin-top: -0.45em;
+    visibility: hidden;
+}
+
+.blue .middle{
+    color: rgb(122, 15, 15);
+}
+.yellow .middle{
+    color: rgb(122, 15, 15);
+}
+.red .middle{
+    color: rgb(122, 15, 15);
+}
+.green .middle{
+    color: rgb(122, 15, 15);
+}
+.bottomleft{
+    transform: rotate(180deg);
+    color: #ffffffab;
+    margin-top: -1.9em;
+}
+.bottomright{
+    transform: rotate(180deg);
+    color: #ffffffab;
+    margin-left: 1.8em;
+    margin-top: -1.9em;
+}
