@@ -82,7 +82,7 @@ function playThisCard(cardToPlay: Card, index: number): void {
 
             // Überprüfe ob Spieler noch Karten hat
             if (myHand.length == 0) {
-                window.alert("Glückwunsch, du hast gewonnen! Professor Dumbledore ist stolz auf dich und schenkt dir 100 Punkte für das Haus deiner Wahl. Und Dobby strickt dir ein paar Socken.");
+                window.alert("Glückwunsch, du hast gewonnen! Professor Dumbledore ist stolz auf dich und schenkt dir 100 Punkte für das Haus deiner Wahl.");
                 clearAll();
             }
             else {
